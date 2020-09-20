@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>STOP-WATCH</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="stopwatch-main">
+        <div class="display">00:00:00</div>
+        <div class="buttons">
+          <div id="play" onclick="start()">
+            <i class="fas fa-play fa-2x"></i>
+          </div>
+          <div id="pause" onclick="stop()">
+            <i class="fas fa-pause fa-2x"></i>
+          </div>
+          <div id="stop" onclick="reset()">
+            <i class="fas fa-stop fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
